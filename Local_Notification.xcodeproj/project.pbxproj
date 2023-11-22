@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52DE2CEF2AF2174400DD9EAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DE2CEE2AF2174400DD9EAB /* AppDelegate.m */; };
+		52DE2CF22AF2174400DD9EAB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DE2CF12AF2174400DD9EAB /* SceneDelegate.m */; };
+		52DE2CF52AF2174400DD9EAB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DE2CF42AF2174400DD9EAB /* ViewController.m */; };
+		52DE2CF82AF2174400DD9EAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52DE2CF62AF2174400DD9EAB /* Main.storyboard */; };
+		52DE2CFA2AF2174600DD9EAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52DE2CF92AF2174600DD9EAB /* Assets.xcassets */; };
+		52DE2CFD2AF2174600DD9EAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52DE2CFB2AF2174600DD9EAB /* LaunchScreen.storyboard */; };
+		52DE2D002AF2174600DD9EAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DE2CFF2AF2174600DD9EAB /* main.m */; };
+		52DE2D0A2AF2174600DD9EAB /* Local_NotificationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DE2D092AF2174600DD9EAB /* Local_NotificationTests.m */; };
+		52DE2D142AF2174600DD9EAB /* Local_NotificationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DE2D132AF2174600DD9EAB /* Local_NotificationUITests.m */; };
+		52DE2D162AF2174600DD9EAB /* Local_NotificationUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DE2D152AF2174600DD9EAB /* Local_NotificationUITestsLaunchTests.m */; };
+		52DE2D232AF2207700DD9EAB /* samsung_notification.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52DE2D222AF2207700DD9EAB /* samsung_notification.mp3 */; };
+		52DE2D262AF22A3D00DD9EAB /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52DE2D252AF22A3D00DD9EAB /* UserNotifications.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52DE2D062AF2174600DD9EAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52DE2CE22AF2174400DD9EAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52DE2CE92AF2174400DD9EAB;
+			remoteInfo = Local_Notification;
+		};
+		52DE2D102AF2174600DD9EAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52DE2CE22AF2174400DD9EAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52DE2CE92AF2174400DD9EAB;
+			remoteInfo = Local_Notification;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52DE2CEA2AF2174400DD9EAB /* Local_Notification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Local_Notification.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52DE2CED2AF2174400DD9EAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		52DE2CEE2AF2174400DD9EAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		52DE2CF02AF2174400DD9EAB /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		52DE2CF12AF2174400DD9EAB /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		52DE2CF32AF2174400DD9EAB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		52DE2CF42AF2174400DD9EAB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		52DE2CF72AF2174400DD9EAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52DE2CF92AF2174600DD9EAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52DE2CFC2AF2174600DD9EAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52DE2CFE2AF2174600DD9EAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52DE2CFF2AF2174600DD9EAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52DE2D052AF2174600DD9EAB /* Local_NotificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Local_NotificationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52DE2D092AF2174600DD9EAB /* Local_NotificationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Local_NotificationTests.m; sourceTree = "<group>"; };
+		52DE2D0F2AF2174600DD9EAB /* Local_NotificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Local_NotificationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52DE2D132AF2174600DD9EAB /* Local_NotificationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Local_NotificationUITests.m; sourceTree = "<group>"; };
+		52DE2D152AF2174600DD9EAB /* Local_NotificationUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Local_NotificationUITestsLaunchTests.m; sourceTree = "<group>"; };
+		52DE2D222AF2207700DD9EAB /* samsung_notification.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = samsung_notification.mp3; sourceTree = SOURCE_ROOT; };
+		52DE2D252AF22A3D00DD9EAB /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52DE2CE72AF2174400DD9EAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52DE2D262AF22A3D00DD9EAB /* UserNotifications.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DE2D022AF2174600DD9EAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DE2D0C2AF2174600DD9EAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52DE2CE12AF2174400DD9EAB = {
+			isa = PBXGroup;
+			children = (
+				52DE2CEC2AF2174400DD9EAB /* Local_Notification */,
+				52DE2D082AF2174600DD9EAB /* Local_NotificationTests */,
+				52DE2D122AF2174600DD9EAB /* Local_NotificationUITests */,
+				52DE2CEB2AF2174400DD9EAB /* Products */,
+				52DE2D242AF22A3D00DD9EAB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		52DE2CEB2AF2174400DD9EAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52DE2CEA2AF2174400DD9EAB /* Local_Notification.app */,
+				52DE2D052AF2174600DD9EAB /* Local_NotificationTests.xctest */,
+				52DE2D0F2AF2174600DD9EAB /* Local_NotificationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52DE2CEC2AF2174400DD9EAB /* Local_Notification */ = {
+			isa = PBXGroup;
+			children = (
+				52DE2CED2AF2174400DD9EAB /* AppDelegate.h */,
+				52DE2CEE2AF2174400DD9EAB /* AppDelegate.m */,
+				52DE2CF02AF2174400DD9EAB /* SceneDelegate.h */,
+				52DE2CF12AF2174400DD9EAB /* SceneDelegate.m */,
+				52DE2CF32AF2174400DD9EAB /* ViewController.h */,
+				52DE2CF42AF2174400DD9EAB /* ViewController.m */,
+				52DE2CF62AF2174400DD9EAB /* Main.storyboard */,
+				52DE2CF92AF2174600DD9EAB /* Assets.xcassets */,
+				52DE2CFB2AF2174600DD9EAB /* LaunchScreen.storyboard */,
+				52DE2CFE2AF2174600DD9EAB /* Info.plist */,
+				52DE2CFF2AF2174600DD9EAB /* main.m */,
+				52DE2D222AF2207700DD9EAB /* samsung_notification.mp3 */,
+			);
+			path = Local_Notification;
+			sourceTree = "<group>";
+		};
+		52DE2D082AF2174600DD9EAB /* Local_NotificationTests */ = {
+			isa = PBXGroup;
+			children = (
+				52DE2D092AF2174600DD9EAB /* Local_NotificationTests.m */,
+			);
+			path = Local_NotificationTests;
+			sourceTree = "<group>";
+		};
+		52DE2D122AF2174600DD9EAB /* Local_NotificationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52DE2D132AF2174600DD9EAB /* Local_NotificationUITests.m */,
+				52DE2D152AF2174600DD9EAB /* Local_NotificationUITestsLaunchTests.m */,
+			);
+			path = Local_NotificationUITests;
+			sourceTree = "<group>";
+		};
+		52DE2D242AF22A3D00DD9EAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52DE2D252AF22A3D00DD9EAB /* UserNotifications.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52DE2CE92AF2174400DD9EAB /* Local_Notification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52DE2D192AF2174600DD9EAB /* Build configuration list for PBXNativeTarget "Local_Notification" */;
+			buildPhases = (
+				52DE2CE62AF2174400DD9EAB /* Sources */,
+				52DE2CE72AF2174400DD9EAB /* Frameworks */,
+				52DE2CE82AF2174400DD9EAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Local_Notification;
+			productName = Local_Notification;
+			productReference = 52DE2CEA2AF2174400DD9EAB /* Local_Notification.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52DE2D042AF2174600DD9EAB /* Local_NotificationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52DE2D1C2AF2174600DD9EAB /* Build configuration list for PBXNativeTarget "Local_NotificationTests" */;
+			buildPhases = (
+				52DE2D012AF2174600DD9EAB /* Sources */,
+				52DE2D022AF2174600DD9EAB /* Frameworks */,
+				52DE2D032AF2174600DD9EAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52DE2D072AF2174600DD9EAB /* PBXTargetDependency */,
+			);
+			name = Local_NotificationTests;
+			productName = Local_NotificationTests;
+			productReference = 52DE2D052AF2174600DD9EAB /* Local_NotificationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52DE2D0E2AF2174600DD9EAB /* Local_NotificationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52DE2D1F2AF2174600DD9EAB /* Build configuration list for PBXNativeTarget "Local_NotificationUITests" */;
+			buildPhases = (
+				52DE2D0B2AF2174600DD9EAB /* Sources */,
+				52DE2D0C2AF2174600DD9EAB /* Frameworks */,
+				52DE2D0D2AF2174600DD9EAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52DE2D112AF2174600DD9EAB /* PBXTargetDependency */,
+			);
+			name = Local_NotificationUITests;
+			productName = Local_NotificationUITests;
+			productReference = 52DE2D0F2AF2174600DD9EAB /* Local_NotificationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52DE2CE22AF2174400DD9EAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					52DE2CE92AF2174400DD9EAB = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					52DE2D042AF2174600DD9EAB = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 52DE2CE92AF2174400DD9EAB;
+					};
+					52DE2D0E2AF2174600DD9EAB = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 52DE2CE92AF2174400DD9EAB;
+					};
+				};
+			};
+			buildConfigurationList = 52DE2CE52AF2174400DD9EAB /* Build configuration list for PBXProject "Local_Notification" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52DE2CE12AF2174400DD9EAB;
+			productRefGroup = 52DE2CEB2AF2174400DD9EAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52DE2CE92AF2174400DD9EAB /* Local_Notification */,
+				52DE2D042AF2174600DD9EAB /* Local_NotificationTests */,
+				52DE2D0E2AF2174600DD9EAB /* Local_NotificationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52DE2CE82AF2174400DD9EAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52DE2CFD2AF2174600DD9EAB /* LaunchScreen.storyboard in Resources */,
+				52DE2CFA2AF2174600DD9EAB /* Assets.xcassets in Resources */,
+				52DE2D232AF2207700DD9EAB /* samsung_notification.mp3 in Resources */,
+				52DE2CF82AF2174400DD9EAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DE2D032AF2174600DD9EAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DE2D0D2AF2174600DD9EAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52DE2CE62AF2174400DD9EAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52DE2CF52AF2174400DD9EAB /* ViewController.m in Sources */,
+				52DE2CEF2AF2174400DD9EAB /* AppDelegate.m in Sources */,
+				52DE2D002AF2174600DD9EAB /* main.m in Sources */,
+				52DE2CF22AF2174400DD9EAB /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DE2D012AF2174600DD9EAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52DE2D0A2AF2174600DD9EAB /* Local_NotificationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DE2D0B2AF2174600DD9EAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52DE2D142AF2174600DD9EAB /* Local_NotificationUITests.m in Sources */,
+				52DE2D162AF2174600DD9EAB /* Local_NotificationUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52DE2D072AF2174600DD9EAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52DE2CE92AF2174400DD9EAB /* Local_Notification */;
+			targetProxy = 52DE2D062AF2174600DD9EAB /* PBXContainerItemProxy */;
+		};
+		52DE2D112AF2174600DD9EAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52DE2CE92AF2174400DD9EAB /* Local_Notification */;
+			targetProxy = 52DE2D102AF2174600DD9EAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52DE2CF62AF2174400DD9EAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52DE2CF72AF2174400DD9EAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52DE2CFB2AF2174600DD9EAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52DE2CFC2AF2174600DD9EAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52DE2D172AF2174600DD9EAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		52DE2D182AF2174600DD9EAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52DE2D1A2AF2174600DD9EAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Local_Notification/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.celestial.Local-Notification";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52DE2D1B2AF2174600DD9EAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Local_Notification/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.celestial.Local-Notification";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52DE2D1D2AF2174600DD9EAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.celestial.Local-NotificationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Local_Notification.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Local_Notification";
+			};
+			name = Debug;
+		};
+		52DE2D1E2AF2174600DD9EAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.celestial.Local-NotificationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Local_Notification.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Local_Notification";
+			};
+			name = Release;
+		};
+		52DE2D202AF2174600DD9EAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.celestial.Local-NotificationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Local_Notification;
+			};
+			name = Debug;
+		};
+		52DE2D212AF2174600DD9EAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.celestial.Local-NotificationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Local_Notification;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52DE2CE52AF2174400DD9EAB /* Build configuration list for PBXProject "Local_Notification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52DE2D172AF2174600DD9EAB /* Debug */,
+				52DE2D182AF2174600DD9EAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52DE2D192AF2174600DD9EAB /* Build configuration list for PBXNativeTarget "Local_Notification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52DE2D1A2AF2174600DD9EAB /* Debug */,
+				52DE2D1B2AF2174600DD9EAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52DE2D1C2AF2174600DD9EAB /* Build configuration list for PBXNativeTarget "Local_NotificationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52DE2D1D2AF2174600DD9EAB /* Debug */,
+				52DE2D1E2AF2174600DD9EAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52DE2D1F2AF2174600DD9EAB /* Build configuration list for PBXNativeTarget "Local_NotificationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52DE2D202AF2174600DD9EAB /* Debug */,
+				52DE2D212AF2174600DD9EAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52DE2CE22AF2174400DD9EAB /* Project object */;
+}
